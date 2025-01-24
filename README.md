@@ -30,3 +30,9 @@ go run .
 ```sh
 curl --location 'localhost:8080/user/admin'
 ```
+
+- GET /user/:name/:action
+
+```sh
+curl --location 'localhost:8080/user/admin/hello'
+```
